@@ -1,6 +1,6 @@
 # <div align="center"> PEERRec: Automatically Generating Peer Review Recommendations</div>
 This repository contains dataset and code of the "PEERRec: Automatically Generating Peer
-Review Recommendations" Authors: Prabhat Kumar Bharti, Tirthankar Ghoshal, Mayank Agrawal, Asif Ekbal Affiliation: Indian Institute of Technology, Patna, India
+Review Recommendations" Authors: Prabhat Kumar Bharti, Tirthankar Ghoshal, Mayank Agrawal, Asif Ekbal, Affiliation: Indian Institute of Technology, Patna, India
 
 # Preprocessing dataset.
 
