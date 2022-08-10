@@ -53,21 +53,6 @@ python ./Preprocessing/Create_VADER_sentiment_matrix.py \
 
 We provide the Preprocessed database here for ICLR [2017](https://drive.google.com/drive/folders/1xw8m0F6nvpd7Xf4Jfoxsg5N30CwQXY-P?usp=sharing), [2018](https://drive.google.com/drive/folders/1rIe2r2hxPrOGVl5Fb-lQbJIEna2E8snl?usp=sharing), [2019](https://drive.google.com/drive/folders/1SqtiZCqeiJK5OwP3jZiCT6Ftje8vqcP4?usp=sharing), [2020](https://drive.google.com/drive/folders/1JMY7Cys6BvA0Qn1AjLd54ni7JyAr4nU2?usp=sharing) and [2021](https://drive.google.com/drive/folders/1UugAjp43p6tHZReNSz2LIkpWOBUUygHI?usp=sharing).
 
-# Baseline Experiments
-
-## For CNN, LSTM, CNN + Bi-LSTM, and CNN+Bi-LSTM + Attention baseline experiments for both Recommendation and Acceptance prediction task, run:
-```
-python ./Baseline/Baseline models.py  \
---dataset path_to_preprocessed_files_directory
-```
-
-## For SVM Unigram, SVM Bigram and SVM Unigram + Bigram baseline experiments, run:
-### Recommendation score prediction
-```
-python ./Baseline/SVM_baseline_regression.py  \
---dataset path_to_preprocessed_files_directory
-```
-
 ### Acceptance prediction
 ```
 python ./Baseline/SVM_baseline_classification.py  \
